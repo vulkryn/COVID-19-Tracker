@@ -1,12 +1,14 @@
 //TODO:
 /*
 
-Add sort and search methods for cards
-Add api fetch to place country flags as card image
-Better css 
-Convert CSS to SASS
-fix header to keep centered on mobile devices (bootstrap?)
-styling for cards
+[]Add sort and search methods for cards
+[]Add api fetch to place country flags as card image
+[]Better css 
+[]Convert CSS to SASS
+[x]fix header to keep centered on mobile devices (bootstrap?)
+	[]add global case/death/recovered
+	[]potential hamburger menu
+[]styling for cards
 */
 
 $(document).ready(function() {
