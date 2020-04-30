@@ -2,26 +2,19 @@
 	margin: 0;
 }
 
-
-#navbar {
-	display: flex;
-	justify-content: center;
-	background-color: #CED3DC;
-	color: #1E3231;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5rem;
-	padding: 2rem;
-	margin-bottom: 2rem;
+body {
+	background-color: #a1c2e8;
 }
 
-#wrapper {
-	display: flex;
-	justify-content: center;
-	align-content: center;
+.navbar {
+	background-color: #a1c2e8;
+	color: #1E3231;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
 }
 
 #container {
-	
+	background-color: #a1c2e8;
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -30,18 +23,21 @@
 }
 
 .card {
-	background-color: #485665;
 	padding: 1.5rem;
 	font-family: 'Montserrat', sans-serif;
-	
   	border-radius: .5rem;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,.5);
 	transition: 0.3s;
 	margin: 1.5rem;
 	text-align: center;
 	max-width: 15rem;
+	max-height: 15rem;
 }
 
-.list-group {
-	list-style-type: none;
+
+
+#footer {
+	text-align: center;
+	background-color: #a1c2e8;
+	font-family: 'Montserrat', sans-serif;
 }

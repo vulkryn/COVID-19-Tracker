@@ -21,7 +21,7 @@ $(document).ready(function() {
 			template += `
 				<div class="card" style="width: 18rem;">
 					<div class="card-body" style="color: black;">
-						<p class="card-text"><strong>${element.country}</strong><br>Cases: ${element.cases}<br>Deaths: ${element.deaths}</p>
+						<p class="card-text"><h4><strong>${element.country}</strong></h4>Cases: ${element.cases}<br>Deaths: ${element.deaths}</p>
 					</div>
 				</div>
 			
